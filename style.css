@@ -6,8 +6,33 @@
 
 header
 {
-	background-image: url(pic1.jpg);
+	background-image: url(breakfast.jpg);
 	background-size: cover;
 	background-position: center;
 	height: 100vh;
+}
+
+.nav {
+	background-color: #A34632;
+	list-style-type: none;
+	margin: 5px;
+	padding: 0;
+	overflow: hidden;
+}
+
+.nav li {
+	float: left;
+}
+
+.nav li a {
+	display: block;
+	text-align: center;
+	color: #FFFFFF;
+	padding: 20px;
+	font-size: 16px;
+	text-decoration: none;
+}
+
+.nav li a:hover {
+	background-color: #6F2B1C;
 }
