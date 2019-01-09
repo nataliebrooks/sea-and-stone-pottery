@@ -6,33 +6,69 @@
 
 header
 {
-	background-image: url(breakfast.jpg);
+	background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url(breakfast.jpg);
 	background-size: cover;
 	background-position: center;
 	height: 100vh;
 }
 
-.nav {
-	background-color: #A34632;
-	list-style-type: none;
-	margin: 5px;
-	padding: 0;
-	overflow: hidden;
+/*------navigation-------*/
+
+#nav-bar
+{
+	position: sticky;
+	top: 0;
+	z-index: 10;
 }
 
-.nav li {
-	float: left;
+.navbar-brand
+{
+	font-family: "destain";
 }
 
-.nav li a {
-	display: block;
-	text-align: center;
-	color: #FFFFFF;
-	padding: 20px;
+.navbar-brand img
+{
+	height: 40px;
+	padding-left: 30px;
+}
+
+.navbar-nav li
+{
+	padding: 0 10px;
+}
+
+.navbar-nav li a
+{
+	float: right;
+	text-align: left;
+}
+
+#nav-bar ul li a:hover
+{
+	color: #6F2B1C!important;
+}
+
+.navbar
+{
+	background: #fff;
+}
+
+.navbar-toggler
+{
+	border: none!important;
+}
+
+.nav-link
+{
+	color: #555!important;
+	font-weight: 600;
 	font-size: 16px;
-	text-decoration: none;
+	font-family: "destain";
 }
-
-.nav li a:hover {
-	background-color: #6F2B1C;
+@font-face
+{
+	font-family: 'destain';
+	src: url("css/fonts/destain.eot");
+	src: url("css/fonts/destain.otf") format("opentype"),
+		url("css/fonts/destain.svg") format("svg");
 }
