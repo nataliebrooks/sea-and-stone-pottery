@@ -6,7 +6,6 @@
 
 header
 {
-	background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url(breakfast.jpg);
 	background-size: cover;
 	background-position: center;
 	height: 100vh;
